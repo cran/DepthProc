@@ -11,6 +11,16 @@
 #' 
 #' @export
 #' 
+#' @examples
+#' 
+#' # depthMedian for matrix
+#' x = matrix(rnorm(600), nc = 3)
+#' depthMedian(x)
+#' 
+#' # depthMedian works with object of class Depth
+#' dp = depth(x)
+#' depthMedian(dp) 
+#' 
 setGeneric("depthMedian", function(x,...) standardGeneric("depthMedian"))
 
 #' @rdname depthMedian-methods
@@ -22,6 +32,15 @@ setMethod("depthMedian", "matrix", function(x,...)
   med = x[depths == max(depths),]
   if(ncol(x) != length(med)) med = colMeans(med)
   med
+})
+
+#' @rdname depthMedian-methods
+#' @aliases depthMedian,data.frame
+#' @export
+setMethod("depthMedian", "data.frame", function(x,...)
+{
+  x = as.matrix(x)
+  depthMedian(x, ...)
 })
 
 #' @rdname depthMedian-methods
