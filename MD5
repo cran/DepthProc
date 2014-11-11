@@ -1,4 +1,4 @@
-c404898bd99380bf1d40959e24febff6 *DESCRIPTION
+a5fcc5102d711990cca855ee0635da67 *DESCRIPTION
 87248b5f2c2ae86a61e943e6b7e8ee68 *NAMESPACE
 eb32da1f8fba3ecac8dd7a0e1042680f *R/AllClasses.R
 4a1b9d442ba53ee78f959e0cf99ffd6f *R/AsymmetryCurveClass.R
@@ -88,7 +88,7 @@ e3043844e4ade3de77268f9614fb85de *man/runifsphere.Rd
 c0514bf8e2773cf7cf154d1037b2c14f *man/scaleCurve.Rd
 3e0a09a0a0b2505237492a4251e49365 *man/trimProjReg2d.Rd
 b8d9b358c69918b4d512f81a528aff46 *man/under5.mort.Rd
-320c4ecdba85ca3fd6096ca7472c4d31 *src/Depth.cpp
+49c5c11df729312b72fb67cf3de1421f *src/Depth.cpp
 befd1a0ca3cb73a3fc6992996d6e0494 *src/Depth.h
 d371d8ee43d197be823da7845a26e646 *src/LocationEstimators.cpp
 572c11c2f484f22ee5ae87634ea4de26 *src/LocationEstimators.h
