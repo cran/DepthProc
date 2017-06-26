@@ -1,5 +1,5 @@
-e09ed03813063486ea08eb3943ddc555 *ChangeLog
-fe7174c486568a6bc3fc98cfe1305974 *DESCRIPTION
+dceec95cff351be679e83086eb36e656 *ChangeLog
+ff7693e8e888f46fead925101993517e *DESCRIPTION
 c9cd93ff6f199d291279cdea916534ca *NAMESPACE
 81be550c549784e27d69bebeeaadbe25 *R/AllClasses.R
 d02967bdd303672078c707b7d6ee6e08 *R/AllClassesFnc.R
@@ -122,7 +122,7 @@ ee78d2dc8a631df851359d92c40ddc26 *src/RobCovLibConfig.h
 14ae0c4ea37ad1df7a87dd0a2b5e6466 *src/TukeyDepth.h
 822faa976d67f2fd701ab2cc465ec176 *src/Utils.cpp
 9480ae5abb0b0892e4bceefd4aedafb3 *src/Utils.h
-2ba81c37da176c5d1a40e92ba0b97e43 *src/UtilsCPP.cpp
+3a437e8a78b3b5d141090cb83ee1606a *src/UtilsCPP.cpp
 3e1c805581ba7e0b7511f9fced5e5679 *src/covFunCPP.cpp
 dbe3a4e5342fa2d1e47ea5ea1dd92426 *src/depthFunCPP.cpp
 8739b037cb2a8276a8ab2ce2052cb14b *src/depthcpp.cpp
