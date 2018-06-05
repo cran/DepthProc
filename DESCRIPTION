@@ -1,6 +1,6 @@
 Package: DepthProc
-Version: 2.0.2
-Date: 2017-06-26
+Version: 2.0.3
+Date: 2018-06-05
 Title: Statistical Depth Functions for Multivariate Analysis
 Authors@R: c(
     person("Zygmunt", "Zawadzki", role = c("aut", "cre"), email = "zygmunt@zstat.pl"),
@@ -26,7 +26,7 @@ LinkingTo: Rcpp, RcppArmadillo
 SystemRequirements: C++11
 RoxygenNote: 6.0.1
 NeedsCompilation: yes
-Packaged: 2017-06-26 16:07:58 UTC; zygmunt
+Packaged: 2018-06-05 14:25:47 UTC; zzawadz
 Author: Zygmunt Zawadzki [aut, cre],
   Daniel Kosiorowski [aut],
   Krzysztof Slomczynski [ctb],
@@ -34,4 +34,4 @@ Author: Zygmunt Zawadzki [aut, cre],
   Anna Wegrzynkiewicz [ctb]
 Maintainer: Zygmunt Zawadzki <zygmunt@zstat.pl>
 Repository: CRAN
-Date/Publication: 2017-06-26 16:44:30 UTC
+Date/Publication: 2018-06-05 17:47:57 UTC

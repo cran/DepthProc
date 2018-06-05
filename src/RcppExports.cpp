@@ -8,7 +8,7 @@ using namespace Rcpp;
 
 // CovLPCPP
 SEXP CovLPCPP(SEXP X, double p, double a, double b);
-RcppExport SEXP DepthProc_CovLPCPP(SEXP XSEXP, SEXP pSEXP, SEXP aSEXP, SEXP bSEXP) {
+RcppExport SEXP _DepthProc_CovLPCPP(SEXP XSEXP, SEXP pSEXP, SEXP aSEXP, SEXP bSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -22,7 +22,7 @@ END_RCPP
 }
 // depth2dcpp
 NumericVector depth2dcpp(SEXP R_x, SEXP R_y);
-RcppExport SEXP DepthProc_depth2dcpp(SEXP R_xSEXP, SEXP R_ySEXP) {
+RcppExport SEXP _DepthProc_depth2dcpp(SEXP R_xSEXP, SEXP R_ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -34,7 +34,7 @@ END_RCPP
 }
 // depthMahCPP
 SEXP depthMahCPP(SEXP ru, SEXP rX, SEXP rcov, SEXP rmean, int threads);
-RcppExport SEXP DepthProc_depthMahCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP rcovSEXP, SEXP rmeanSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_depthMahCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP rcovSEXP, SEXP rmeanSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -49,7 +49,7 @@ END_RCPP
 }
 // depthProjCPP
 SEXP depthProjCPP(SEXP ru, SEXP rX, double nproj, int threads);
-RcppExport SEXP DepthProc_depthProjCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP nprojSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_depthProjCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP nprojSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -63,7 +63,7 @@ END_RCPP
 }
 // depthLPCPP
 SEXP depthLPCPP(SEXP ru, SEXP rX, double p, double a, double b, int threads);
-RcppExport SEXP DepthProc_depthLPCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP pSEXP, SEXP aSEXP, SEXP bSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_depthLPCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP pSEXP, SEXP aSEXP, SEXP bSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -79,7 +79,7 @@ END_RCPP
 }
 // depthTukeyCPP
 SEXP depthTukeyCPP(SEXP ru, SEXP rX, bool exact, int threads);
-RcppExport SEXP DepthProc_depthTukeyCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP exactSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_depthTukeyCPP(SEXP ruSEXP, SEXP rXSEXP, SEXP exactSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -93,7 +93,7 @@ END_RCPP
 }
 // modBandDepthRef
 SEXP modBandDepthRef(SEXP rX, SEXP rxRef);
-RcppExport SEXP DepthProc_modBandDepthRef(SEXP rXSEXP, SEXP rxRefSEXP) {
+RcppExport SEXP _DepthProc_modBandDepthRef(SEXP rXSEXP, SEXP rxRefSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -105,7 +105,7 @@ END_RCPP
 }
 // modBandDepth
 SEXP modBandDepth(SEXP rX);
-RcppExport SEXP DepthProc_modBandDepth(SEXP rXSEXP) {
+RcppExport SEXP _DepthProc_modBandDepth(SEXP rXSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -116,7 +116,7 @@ END_RCPP
 }
 // sampleDepthContForMuCPP
 SEXP sampleDepthContForMuCPP(double d, double mu, SEXP rY);
-RcppExport SEXP DepthProc_sampleDepthContForMuCPP(SEXP dSEXP, SEXP muSEXP, SEXP rYSEXP) {
+RcppExport SEXP _DepthProc_sampleDepthContForMuCPP(SEXP dSEXP, SEXP muSEXP, SEXP rYSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -129,7 +129,7 @@ END_RCPP
 }
 // sampleMaxDepthForMuCPP
 SEXP sampleMaxDepthForMuCPP(double mu, const SEXP rY, int d_min, int max_iter, double eps);
-RcppExport SEXP DepthProc_sampleMaxDepthForMuCPP(SEXP muSEXP, SEXP rYSEXP, SEXP d_minSEXP, SEXP max_iterSEXP, SEXP epsSEXP) {
+RcppExport SEXP _DepthProc_sampleMaxDepthForMuCPP(SEXP muSEXP, SEXP rYSEXP, SEXP d_minSEXP, SEXP max_iterSEXP, SEXP epsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -144,7 +144,7 @@ END_RCPP
 }
 // sampleMaxLocScaleDepthCPP
 SEXP sampleMaxLocScaleDepthCPP(SEXP ry, double iter, double eps, double p_length);
-RcppExport SEXP DepthProc_sampleMaxLocScaleDepthCPP(SEXP rySEXP, SEXP iterSEXP, SEXP epsSEXP, SEXP p_lengthSEXP) {
+RcppExport SEXP _DepthProc_sampleMaxLocScaleDepthCPP(SEXP rySEXP, SEXP iterSEXP, SEXP epsSEXP, SEXP p_lengthSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -158,7 +158,7 @@ END_RCPP
 }
 // runifsphereCPP
 SEXP runifsphereCPP(double n, double p);
-RcppExport SEXP DepthProc_runifsphereCPP(SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _DepthProc_runifsphereCPP(SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -170,7 +170,7 @@ END_RCPP
 }
 // covCPP
 SEXP covCPP(SEXP rX, int threads);
-RcppExport SEXP DepthProc_covCPP(SEXP rXSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_covCPP(SEXP rXSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -182,7 +182,7 @@ END_RCPP
 }
 // meanCPP
 SEXP meanCPP(SEXP rX, int threads);
-RcppExport SEXP DepthProc_meanCPP(SEXP rXSEXP, SEXP threadsSEXP) {
+RcppExport SEXP _DepthProc_meanCPP(SEXP rXSEXP, SEXP threadsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -194,7 +194,7 @@ END_RCPP
 }
 // refRank
 std::vector<double> refRank(std::vector<double> u, std::vector<double> x);
-RcppExport SEXP DepthProc_refRank(SEXP uSEXP, SEXP xSEXP) {
+RcppExport SEXP _DepthProc_refRank(SEXP uSEXP, SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -203,4 +203,28 @@ BEGIN_RCPP
     rcpp_result_gen = Rcpp::wrap(refRank(u, x));
     return rcpp_result_gen;
 END_RCPP
+}
+
+static const R_CallMethodDef CallEntries[] = {
+    {"_DepthProc_CovLPCPP", (DL_FUNC) &_DepthProc_CovLPCPP, 4},
+    {"_DepthProc_depth2dcpp", (DL_FUNC) &_DepthProc_depth2dcpp, 2},
+    {"_DepthProc_depthMahCPP", (DL_FUNC) &_DepthProc_depthMahCPP, 5},
+    {"_DepthProc_depthProjCPP", (DL_FUNC) &_DepthProc_depthProjCPP, 4},
+    {"_DepthProc_depthLPCPP", (DL_FUNC) &_DepthProc_depthLPCPP, 6},
+    {"_DepthProc_depthTukeyCPP", (DL_FUNC) &_DepthProc_depthTukeyCPP, 4},
+    {"_DepthProc_modBandDepthRef", (DL_FUNC) &_DepthProc_modBandDepthRef, 2},
+    {"_DepthProc_modBandDepth", (DL_FUNC) &_DepthProc_modBandDepth, 1},
+    {"_DepthProc_sampleDepthContForMuCPP", (DL_FUNC) &_DepthProc_sampleDepthContForMuCPP, 3},
+    {"_DepthProc_sampleMaxDepthForMuCPP", (DL_FUNC) &_DepthProc_sampleMaxDepthForMuCPP, 5},
+    {"_DepthProc_sampleMaxLocScaleDepthCPP", (DL_FUNC) &_DepthProc_sampleMaxLocScaleDepthCPP, 4},
+    {"_DepthProc_runifsphereCPP", (DL_FUNC) &_DepthProc_runifsphereCPP, 2},
+    {"_DepthProc_covCPP", (DL_FUNC) &_DepthProc_covCPP, 2},
+    {"_DepthProc_meanCPP", (DL_FUNC) &_DepthProc_meanCPP, 2},
+    {"_DepthProc_refRank", (DL_FUNC) &_DepthProc_refRank, 2},
+    {NULL, NULL, 0}
+};
+
+RcppExport void R_init_DepthProc(DllInfo *dll) {
+    R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
+    R_useDynamicSymbols(dll, FALSE);
 }
