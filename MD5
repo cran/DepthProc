@@ -1,5 +1,5 @@
-1d6bcf4c0ad271c5c7d6f3beb8d916bc *ChangeLog
-30e69c654e621b9378adb2f2bf229b5e *DESCRIPTION
+d4982852e65a81887fab09f6c03053de *ChangeLog
+63b7afd58ad8b8c5dc64ed8a1e489941 *DESCRIPTION
 b5f0eb82c39b6fb698de985fc1fd3775 *NAMESPACE
 81be550c549784e27d69bebeeaadbe25 *R/AllClasses.R
 d02967bdd303672078c707b7d6ee6e08 *R/AllClassesFnc.R
@@ -27,14 +27,14 @@ b76e8e134cb936a4797f8de4dde86874 *R/dynlib.R
 9380d0baeb6b3d890c64adfbc6b88f9b *R/fncFunctions.R
 e48b4a5748d9a11fa661f082ecb19501 *R/fncUtils.R
 d2ed65d18fca2aaa9de1efdbc220c663 *R/functional_boxplot.R
-a2f97ccba688e4de44a75e3d9d78a497 *R/functional_depths.R
+b694589e6efd74ba24bb344c27e60b2a *R/functional_depths.R
 54525d469af1e52e95b06a3bba9fbe27 *R/locationScaleDepth.R
 1eba4b418e7edac452bb544951577dee *R/lsd.R
 b8069d8fb2addeae2829f7fdaa218f50 *R/mregdepth.R
 69e01625d671eb6b098c0dbeb8774e7c *R/runifsphere.R
 eb18a3837e96410eaceba64ca5a442d6 *R/scalecurve.R
 b998d863d14398a48fcaecf93d9c589f *R/trimprojreg2d.R
-863a04a842bbcd881ae52bed5da37be6 *README.md
+cfb8688fd3b1a98f2a0765379115242f *README.md
 88f223b62df41c6e41afe29a6abbec49 *data/USLABOUR.rda
 6c59ec014a8ffd087808c09fc25e9cf0 *data/cracow.airpollution.rda
 79a95a23b099b897e4f82dffcba951c6 *data/france.rda
