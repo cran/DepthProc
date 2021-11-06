@@ -1,5 +1,5 @@
 Package: DepthProc
-Version: 2.1.3
+Version: 2.1.4
 Title: Statistical Depth Functions for Multivariate Analysis
 Authors@R: c(
     person("Zygmunt", "Zawadzki", role = c("aut", "cre"), email = "zygmunt@zstat.pl"),
@@ -23,13 +23,13 @@ Suggests: mvtnorm, rgl, sn, robustbase, dplyr, RcppArmadillo, xts,
         covr, testthat, fda, lintr
 LinkingTo: Rcpp, RcppArmadillo
 SystemRequirements: C++11
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.2
 Encoding: UTF-8
 URL: https://www.depthproc.zstat.pl/,
         https://github.com/zzawadz/DepthProc
 BugReports: https://github.com/zzawadz/DepthProc/issues
 NeedsCompilation: yes
-Packaged: 2020-02-19 19:35:52 UTC; zzawadz
+Packaged: 2021-11-06 13:04:19 UTC; zzawadz
 Author: Zygmunt Zawadzki [aut, cre],
   Daniel Kosiorowski [aut],
   Krzysztof Slomczynski [ctb],
@@ -37,4 +37,4 @@ Author: Zygmunt Zawadzki [aut, cre],
   Anna Wegrzynkiewicz [ctb]
 Maintainer: Zygmunt Zawadzki <zygmunt@zstat.pl>
 Repository: CRAN
-Date/Publication: 2020-02-19 21:00:03 UTC
+Date/Publication: 2021-11-06 19:50:02 UTC
