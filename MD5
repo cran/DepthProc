@@ -1,5 +1,5 @@
 a37c89babe97333499b96c04a1fa130b *ChangeLog
-f40390174ef4cc89835d8afdc6631f69 *DESCRIPTION
+a85f4e19c8efcbae757580464981442f *DESCRIPTION
 b5f0eb82c39b6fb698de985fc1fd3775 *NAMESPACE
 7b2da235ab805511ff4b16858fdffd39 *R/AllClasses.R
 d02967bdd303672078c707b7d6ee6e08 *R/AllClassesFnc.R
@@ -35,7 +35,7 @@ b8069d8fb2addeae2829f7fdaa218f50 *R/mregdepth.R
 eb18a3837e96410eaceba64ca5a442d6 *R/scalecurve.R
 b998d863d14398a48fcaecf93d9c589f *R/trimprojreg2d.R
 cfb8688fd3b1a98f2a0765379115242f *README.md
-79da2ba611666a5476e3d03c30fcf7c6 *build/partial.rdb
+d00965c0bdffc1a54cd3fb124c140a73 *build/partial.rdb
 88f223b62df41c6e41afe29a6abbec49 *data/USLABOUR.rda
 6c59ec014a8ffd087808c09fc25e9cf0 *data/cracow.airpollution.rda
 79a95a23b099b897e4f82dffcba951c6 *data/france.rda
@@ -63,7 +63,7 @@ d04762f9d913a641e2bb7327e66cd062 *man/DepthDensity-class.Rd
 822ac6d27bcbe6fc9388c31aa1377e10 *man/ScaleCurve-class.Rd
 c85847b932c8c9939770783f77ff6b64 *man/TrimReg2d-class.Rd
 d016f36b86fbc5ce7a12c00e63606fb4 *man/USLABOUR.Rd
-e9ad2ca29ab8e8eaef66a284edc0df13 *man/abline-RobReg-ANY-ANY-ANY-method.Rd
+e8df805a7e1a93c4f763b7e39b86f0a5 *man/abline-RobReg-method.Rd
 b8eaa666a7e7356ef9c0e7f901b43f6a *man/as.matrix-methods.Rd
 d96ded856a7f0581609b00a8ffefc4fb *man/asymmetryCurve.Rd
 1a24a19002cb11c76e96d3fe099f1731 *man/binningDepth2D.Rd
